@@ -7,11 +7,11 @@ public class QuadraticEquation {
 
         System.out.println("Welcome to Quadratic Equation Resolver");
         System.out.println("Give a question as: 'a*x*x + b*x + c = 0', please enter your constant:");
-        System.out.println("a= ");
+        System.out.print("a= ");
         double a = input.nextDouble();
-        System.out.println("b= ");
+        System.out.print("b= ");
         double b = input.nextDouble();
-        System.out.println("c= ");
+        System.out.print("c= ");
         double c = input.nextDouble();
 
         if (a == 0) {
